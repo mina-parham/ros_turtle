@@ -14,12 +14,12 @@ void chatterCallback(const turtlesim::Pose::ConstPtr& msg)
 int main(int argc, char **argv)
 {
   ros::init(argc, argv, "listener");
-
+ros::init(argc, argv,"talker");
  
   ros::NodeHandle n;
 
  
-  ros::Subscriber sub = n.subscribe("chatter", 1000, chatterCallback);
+  ros::Subscriber sub = n.subscribe("turtle1/pose", 1000, chatterCallback);
 
  
   ros::spin();
