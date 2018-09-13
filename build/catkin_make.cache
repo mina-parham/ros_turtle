@@ -1,0 +1,2 @@
+
+-DCATKIN_DEVEL_PREFIX=/home/mina/Desktop/mina/devel -DCMAKE_INSTALL_PREFIX=/home/mina/Desktop/mina/install -G Unix Makefiles
