@@ -7,7 +7,5 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/mina/Desktop/mina/devel:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/opt/ros/kinetic/lib:/opt/ros/kinetic/lib/x86_64-linux-gnu"
 export PWD="/home/mina/Desktop/mina/build"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/mina/Desktop/mina/devel/share/common-lisp"
-export ROS_PACKAGE_PATH="/home/mina/Desktop/mina/src:$ROS_PACKAGE_PATH"

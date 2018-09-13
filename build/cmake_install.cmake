@@ -117,6 +117,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/mina/Desktop/mina/build/gtest/cmake_install.cmake")
+  include("/home/mina/Desktop/mina/build/mypack_mina/cmake_install.cmake")
 
 endif()
 

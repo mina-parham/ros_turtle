@@ -1,0 +1,8 @@
+prefix=/home/mina/Desktop/mina/install
+
+Name: mypack_mina
+Description: Description of mypack_mina
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/mina/Desktop/mina/install/lib 
+Requires: 
