@@ -36,7 +36,7 @@ position2.angular_velocity=msg->angular_velocity;
 //now I will calculate the distance between two turtles!
 double distance(double tur1x,double tur1y,double tur2x,double tur2y){
 
-return sqtr(pow((tur2x-tur1x),2)+pow((tur2y-tur1y),2));
+return sqrt(pow((tur2x-tur1x),2)+pow((tur2y-tur1y),2));
 }
 
 int main(int argc, char **argv)
